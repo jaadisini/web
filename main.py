@@ -21,7 +21,7 @@ app = FastAPI(title="Casaku Webhook Receiver")
 
 WEBHOOK_SECRET = os.environ.get(
     "WEBHOOK_SECRET",
-    "casaku_sec_ganti_dengan_secret_anda_dari_dashboard",
+    "cashify_8a74a142e8a80891613658bddb23f04ddd14fda7ed300b9bb687e536206ac8721c26f479bbb5e33c0cf46869ba3b40ed72f4b8ec6c6d623dd19986b58a85c376",
 )
 
 logging.basicConfig(level=logging.INFO)
